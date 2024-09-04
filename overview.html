@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quebrix</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2c2c2c;
+            color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+        }
+        header, footer {
+            background-color: #3f3f3f; /* Lightened color */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+        header span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        header img {
+            margin-right: 10px;
+        }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            text-align: center;
+            flex: 1;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        .feature {
+            background-color: #3a3a3a;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            width: 200px;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .feature img {
+            width: 50px;
+            height: 50px;
+        }
+        .feature h3 {
+            color: #5e8ff8;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <span>
+            <img src="quebrix.png" width="110" height="110" alt="logo">
+            <h1>Quebrix</h1>
+        </span>
+    </header>
+    <div class="container">
+        <main>
+            <section>
+                <h2 style="color: #5e8ff8;">Overview</h2>
+                <p>Quebrix is a <strong>distributed cache application</strong> designed to enhance web performance by efficiently managing and storing frequently accessed data. Developed using the <strong>Rust programming language</strong>, Quebrix ensures <strong>thread safety</strong> and <strong>security</strong>.</p>
+            </section>
+            <section>
+                <p><strong>Persistence:</strong> Quebrix offers data persistence to ensure that your data is always available.</p>
+                <p><strong>Eviction Strategy:</strong> It includes an efficient eviction strategy to manage cache storage effectively.</p>
+                <p><strong>Cluster Support:</strong> Quebrix supports clustering to save data across multiple nodes, ensuring high availability and reliability.</p>
+                <p><strong>Remote Access:</strong> You can access the application from outside the server, providing flexibility and ease of use.</p>
+                <p><strong>High Performance:</strong> Quebrix is designed to be extremely fast, reducing load times and improving user experience.</p>
+            </section>
+            <section>
+                <h2 style="color: #5e8ff8;">Benefits</h2>
+                <p>By using Quebrix, you can significantly reduce load times, improve user experience, and lower server costs. Its robust features ensure that your data is secure, persistent, and easily accessible.</p>
+            </section>
+            <section>
+                <h2 style="color: #5e8ff8;">Features</h2>
+                <div class="features">
+                    <div class="feature">
+                        <img style="padding-left: 25px;" src="fast.png" alt="Fast" width="50" height="50">
+                        <h3>Fast</h3>
+                    </div>
+                    <div class="feature">
+                        <img  src="secure.png" alt="Fast" width="50" height="50">
+                        <h3>Secure</h3>
+                    </div>
+                    <div class="feature">
+                        <img  src="Distributed.png" alt="Fast" width="50" height="50">
+                        <h3>Distributed</h3>
+                    </div>
+                    <div class="feature">
+                        <img src="safe.png" alt="Fast" width="50" height="50">
+                        <h3>Safe</h3>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2 style="color: #487ef3;">Benefits</h2>
+                <p>By using Quebrix, you can significantly reduce load times, improve user experience, and lower server costs.</p>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; 2024 Quebrix. All rights reserved.</p>
+    </footer>
+</body>
+</html>
